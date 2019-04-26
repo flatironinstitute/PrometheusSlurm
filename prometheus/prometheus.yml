@@ -30,4 +30,4 @@ scrape_configs:
 
   - job_name: 'mqtt'
     static_configs:
-    - targets: ['localhost:9344']
+    - targets: ['mon8:9344']
